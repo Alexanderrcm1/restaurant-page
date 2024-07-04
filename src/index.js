@@ -1,5 +1,6 @@
 import homePage from "./home"
 import menuPage from "./menu"
+import contactPage from "./contact"
 
 const content = document.getElementById("content")
 
@@ -9,18 +10,24 @@ const contactBtn = document.getElementById("contact-btn")
 
 const createHome = () => {
     const element = document.createElement("div")
-    element.setAttribute("class", "homepage")
+    element.setAttribute("class", "home-page")
     element.innerHTML = homePage()
     return element
 }
 
 const createMenu = () => {
-    const element2 = document.createElement("div")
-    element2.setAttribute("class", "menupage")
-    element2.innerHTML = menuPage()
-    return element2
+    const element = document.createElement("div")
+    element.setAttribute("class", "menu-page")
+    element.innerHTML = menuPage()
+    return element
 }
-content.appendChild(createMenu())
+
+const createContact = () => {
+    const element = document.createElement("div")
+    element.setAttribute("class", "contact-page")
+    element.innerHTML = contactPage()
+    return element
+}
 
 homeBtn.addEventListener("click", () => {
     content.innerHTML = ""
@@ -31,3 +38,10 @@ menuBtn.addEventListener("click", () => {
     content.innerHTML = ""
     content.appendChild(createMenu())
 })
+
+contactBtn.addEventListener("click", () => {
+    content.innerHTML = ""
+    content.appendChild(createContact())
+})
+
+content.appendChild(createHome())
