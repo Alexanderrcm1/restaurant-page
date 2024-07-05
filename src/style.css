@@ -1,0 +1,138 @@
+
+/* Body / All Pages */ 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    font-size: 55px;
+    width: 90vw;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 189, 66);
+    color: white;
+    margin: 0;
+    border-radius: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    list-style: none;
+    background-color: red;
+    width: 100vw;
+}
+
+
+li {
+    margin: 5px;
+    color: white;
+}
+
+
+
+/* Header */ 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#home-btn {
+    background-color: red;
+}
+
+#menu-btn {
+    background-color: white;
+}
+
+#contact-btn {
+    background-color: rgb(66, 189, 66);
+}
+
+/* Home Page*/
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.home-page ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    list-style: none;
+    background-color: red;
+    width: 90vw;
+    border-radius: 20px;
+}
+
+
+.home-page li {
+    margin: 5px;
+    color: white;
+}
+
+.home-page div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-page div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.home-page section {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px, 100px, 50px, 100px;
+    width: 1500px;
+}
+
+.home-page p {
+    margin: 50px;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+ /* Menu Page */
+
