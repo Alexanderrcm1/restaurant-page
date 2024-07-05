@@ -1,6 +1,7 @@
 import homePage from "./home"
 import menuPage from "./menu"
 import contactPage from "./contact"
+import "./style.css";
 
 const content = document.getElementById("content")
 
@@ -28,6 +29,7 @@ const createContact = () => {
     element.innerHTML = contactPage()
     return element
 }
+
 
 homeBtn.addEventListener("click", () => {
     content.innerHTML = ""
