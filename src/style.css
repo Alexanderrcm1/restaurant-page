@@ -80,22 +80,6 @@ button:hover {
     align-items: center;
 }
 
-.home-page ul {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    list-style: none;
-    background-color: red;
-    width: 90vw;
-    border-radius: 20px;
-}
-
-
-.home-page li {
-    margin: 5px;
-    color: white;
-}
-
 .home-page div {
     display: flex;
     flex-direction: column;
@@ -104,15 +88,7 @@ button:hover {
     text-align: center;
 }
 
-.home-page div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-h2 {
+.home-page h2 {
     font-size: 30px;
 }
 
@@ -135,4 +111,60 @@ img {
 }
 
  /* Menu Page */
+
+ .menu-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-page div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-page h2 {
+    display: flex;
+    font-size: 40px;
+    width: 60vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+.menu-page h3 {
+    margin: 5px;
+    font-size: 24px;
+}
+
+.menu-page h4 {
+    font-size: 30px;
+    margin: 50px;
+}
+
+.menu-page p{
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.menu-page em {
+    margin-bottom: 10px;
+}
+
+.menu-page span {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-style: italic;
+}
+
 
