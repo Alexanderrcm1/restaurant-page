@@ -17,6 +17,7 @@ const contactPage = () => `
             <label for="message">Your Message: </label>
             <textarea id="message" name="message"></textarea>
         </div>
+        <button>Submit</button>
     </form>
 
     <h4 id="location">Folkungagatan 76,<br> 116 22 Stockholm</h4>
